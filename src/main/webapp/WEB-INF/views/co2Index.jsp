@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/co2Index.css">
 		
+		
 <style type="text/css">
 	.carousel{
 	    background: #2f4357;
