@@ -8,19 +8,7 @@
 		
 		
 <style type="text/css">
-	.carousel{
-	    background: #2f4357;
-	    /* margin-top: 20px; */
-	    height: 100vh;
-    	width: 100vw;
-	}
-	.carousel .item{
-	    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
-	}
-	.carousel .item img{
-	    margin: 0 auto; /* Align slide image horizontally center */
-	}
-	
+
 </style>		
 		
 		
@@ -40,14 +28,14 @@
         <!-- Wrapper for carousel items -->
         <div class="carousel-inner" >
         	<!-- image margin top -->
-            <div class="item active" id="" style="margin-top:50px;">
-                <img src="${pageContext.request.contextPath }/resources/cocosImg/indexImg/bacon.jpg" alt="First Slide">
+            <div class="item active" id="idxTopSlide1" style="/* margin-top:50px; */" alt="First Slide">
+                <%-- <img src="${pageContext.request.contextPath }/resources/cocosImg/indexImg/bacon.jpg" alt="First Slide"> --%>
             </div>
-            <div class="item" id="">
-                <img src="${pageContext.request.contextPath }/resources/cocosImg/indexImg/eggmari.PNG" alt="Second Slide">
+            <div class="item" id="idxTopSlide2" alt="Second Slide">
+                <%-- <img src="${pageContext.request.contextPath }/resources/cocosImg/indexImg/eggmari.PNG" alt="Second Slide"> --%>
             </div>
-            <div class="item" id="">
-                <img src="${pageContext.request.contextPath }/resources/cocosImg/indexImg/jorim3.jpg" alt="Third Slide">
+            <div class="item" id="idxTopSlide3" alt="Third Slide">
+                <%-- <img src="${pageContext.request.contextPath }/resources/cocosImg/indexImg/jorim3.jpg" alt="Third Slide"> --%>
             </div>
         </div>
         <!-- Carousel controls -->

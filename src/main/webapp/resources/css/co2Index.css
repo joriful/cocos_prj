@@ -1,6 +1,62 @@
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
+
+/* carousel */
+/* .carousel{
+	    background: #2f4357;
+	    margin-top: 20px;
+	    height: 100vh;
+    	width: 100vw;
+	}
+.carousel .item{
+	    min-height: 280px; Prevent carousel from being distorted if for some reason image doesn't load
+	}
+.carousel .item img{
+	    margin: 0 auto; Align slide image horizontally center
+	} */
+	
+/* background index img */
+#idxTopSlide1{
+	background: url(../cocosImg/indexImg/ojing.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #434343;
+	color: #ffffff;
+    height: 100vh;
+    width: 100vw;
+  	background-position: center center;	
+}	
+
+#idxTopSlide2{
+	background: url(../cocosImg/indexImg/eggmari.PNG) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #434343;
+	color: #ffffff;
+    height: 100vh;
+    width: 100vw;
+  	background-position: center center;	
+}
+
+#idxTopSlide3{
+	background: url(../cocosImg/indexImg/bacon.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #434343;
+	color: #ffffff;
+    height: 100vh;
+    width: 100vw;
+  	background-position: center center;	
+}
+
+
 	/* 클릭버튼 테두리 none */
 	/* .btn:focus,.btn:active {
 	   outline: none !important;
@@ -8,13 +64,13 @@
 	} */	
 
 
- @keyframes breath {
+/*  @keyframes breath {
   0%   { background-size: auto 170%; }
   100%  { background-size: auto 155%; }
-}
+} */
 
 
-div.joritem-1 {
+/* div.joritem-1 {
 	background: url(../cocosImg/indexImg/jorim3.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -27,7 +83,7 @@ div.joritem-1 {
     background-size: auto 155%;
   	background-position: center center;
 		animation: breath 2s linear;    
-}
+} */
 
 
 
@@ -43,8 +99,8 @@ div.joritem-1 {
 	background: inherit !important;
 }
  */
- div.joritem-3{
-	background: url(../divImgs/jorim4.jpg) no-repeat center center;/* 가운데 기준으로 이미지확대 */
+/*  div.joritem-3{
+	background: url(../divImgs/jorim4.jpg) no-repeat center center;가운데 기준으로 이미지확대
  	background-size: cover;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -53,13 +109,13 @@ div.joritem-1 {
 	  background-position: center center;
     margin: 0px;
     padding: 0px;
-} 
+}  */
 
 
     
     /* IE  */
     /*Edge*/
-@supports ( -ms-accelerator:true ) 
+ @supports ( -ms-accelerator:true ) 
 {
     html{
         overflow: hidden;
@@ -69,7 +125,7 @@ div.joritem-1 {
         overflow: auto;
         height: 100%;
     }
-}
+} 
 /*Ie 10/11*/
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) 
 {
@@ -91,45 +147,45 @@ div.joritem-1 {
 	} */
 
 /* 인덱스 메인 문구 centered */	
-.col-centered{
+/* .col-centered{
     float: none;
     margin: 0 auto;
-}
+} */
 
 /* 메뉴 이미지 비율 */
 	/* 사진리스트 비율 */
-	.ratio{
+/* 	.ratio{
 	    position:absolute;
 	    width: 100%;
-	    /* height: 150px; */
+	    height: 150px;
 	    height: 0;
-	    /* padding-bottom: 50% ; % of width, defines aspect ratio */
+	    padding-bottom: 50% ; % of width, defines aspect ratio
 	    padding-top:100%; 
 	    background-repeat: no-repeat;
 	    background-position: center center;
 	    background-size: cover;  
 	    overflow: hidden;
-	}
+	} */
 	
 /* menu recommend */
 
- #recomenu1{
-	    /* position:absolute; */
-	    /* background: url('../divImgs/ojing.jpg'); */
+ /* #recomenu1{
+	    position:absolute;
+	    background: url('../divImgs/ojing.jpg');
 	    width: 100%;
-	    /* height: 150px; */
+	    height: 150px;
 	    height: 0;
-	    /* padding-bottom: 50% ; % of width, defines aspect ratio */
+	    padding-bottom: 50% ; % of width, defines aspect ratio
 	    padding-top:50%;
 	    background-repeat: no-repeat;
 	    background-position: center center;
 	    background-size: cover;  
 	    overflow: hidden;
- }	
+ }	 */
  
   /* recomand menu shadow */
  
-  	#recomenu_box:hover, 
+ /*  	#recomenu_box:hover, 
 	#recomenu_box:focus, 
 	#recomenu_box:active, 
 	#recomenu_box.active, 
@@ -151,10 +207,10 @@ div.joritem-1 {
 	
 		#ptListRow{
 		margin: 10px -3px 10px -3px;
-	}
+	} */
 	
 	/* 추천1 */
- #recomenslide1{
+/*  #recomenslide1{
 	    background: url('../divImgs/jeyouk.jpg');
 	    width: 100%;
 	    height: 0;
@@ -163,9 +219,9 @@ div.joritem-1 {
 	    background-position: center center;
 	    background-size: cover;  
 	    overflow: hidden;
- }		
+ }		 */
  
- #recomenslide2{
+/*  #recomenslide2{
 	    background: url('../divImgs/eggroll.PNG');
 	    width: 100%;
 	    height: 0;
@@ -174,9 +230,9 @@ div.joritem-1 {
 	    background-position: center center;
 	    background-size: cover;  
 	    overflow: hidden;
- }		
+ }	 */	
  
- #recomenslide3{
+ /* #recomenslide3{
 	    background: url('../divImgs/osam.jpg');
 	    width: 100%;
 	    height: 0;
@@ -185,9 +241,9 @@ div.joritem-1 {
 	    background-position: center center;
 	    background-size: cover;  
 	    overflow: hidden;
- }		
+ }		 */
  
-  #recomenslide4{
+/*   #recomenslide4{
 	    background: url('../divImgs/ojing.jpg');
 	    width: 100%;
 	    height: 0;
@@ -196,10 +252,10 @@ div.joritem-1 {
 	    background-position: center center;
 	    background-size: cover;  
 	    overflow: hidden;
- }
+ } */
  
  /* 추천2  */
-	 #recomenslide11{
+/* 	 #recomenslide11{
 	    background: url('../divImgs/jeyouk.jpg');
 	    width: 100%;
 	    height: 0;
@@ -208,9 +264,9 @@ div.joritem-1 {
 	    background-position: center center;
 	    background-size: cover;  
 	    overflow: hidden;
- }		
+ }	 */	
  
- #recomenslide22{
+/*  #recomenslide22{
 	    background: url('../divImgs/eggroll.PNG');
 	    width: 100%;
 	    height: 0;
@@ -219,9 +275,9 @@ div.joritem-1 {
 	    background-position: center center;
 	    background-size: cover;  
 	    overflow: hidden;
- }		
+ }		 */
  
- #recomenslide33{
+/*  #recomenslide33{
 	    background: url('../divImgs/osam.jpg');
 	    width: 100%;
 	    height: 0;
@@ -230,9 +286,9 @@ div.joritem-1 {
 	    background-position: center center;
 	    background-size: cover;  
 	    overflow: hidden;
- }		
+ }		 */
  
-  #recomenslide44{
+ /*  #recomenslide44{
 	    background: url('../divImgs/ojing.jpg');
 	    width: 100%;
 	    height: 0;
@@ -241,17 +297,17 @@ div.joritem-1 {
 	    background-position: center center;
 	    background-size: cover;  
 	    overflow: hidden;
- }
+ } */
  
  /*  */
 	/* new slider */
-	.hide-bullets {
+/* 	.hide-bullets {
 		list-style:none;
 		margin-left: -40px;
 		margin-top:20px;
-	}
+	} */
 	
-  .recomand_main{
+ /*  .recomand_main{
 	    width: 100%;
 	    height: 0;
 	    padding-top:50%;
@@ -259,11 +315,11 @@ div.joritem-1 {
 	    background-position: center center;
 	    background-size: cover;  
 	    overflow: hidden;
- }	
+ }	 */
  
 /* 	price button event edit */
 
-	.side-categroy-btn {
+/* 	.side-categroy-btn {
 		 color: #AAB7B8;
 		 background: transparent;
 		 border: 2px solid #AAB7B8;
@@ -274,16 +330,15 @@ div.joritem-1 {
 		 margin-right: 12px;
 		 display: inline-block;
 		 text-decoration: none;
-		 /* font-family: 'Open Sans', sans-serif; */
-		 /* min-width: 120px; */
-	}
+		 
+	} */
 
-	.side-categroy-btn:hover{
+/* 	.side-categroy-btn:hover{
 		 color: #AAB7B8;		
-	}
+	} */
 
 	/* #sidecatgegorymenu:hover, */
-	.side-categroy-btn:focus,	 
+/* 	.side-categroy-btn:focus,	 
 	.side-categroy-btn:active,
 	.side-categroy-btn.active,
 	.open .dropdown-toggle .side-categroy-btn{
@@ -297,17 +352,17 @@ div.joritem-1 {
 		 margin-right: 12px;
 		 display: inline-block;
 		 text-decoration: none;
-		 /* min-width: 120px; */
+		 min-width: 120px;
          outline: none !important;
 		  -webkit-box-shadow: none !important;
 		  box-shadow: none  !important;
  
-	}
+	} */
 	
 		
 /*  */		
 		
-	.allmenu-categroy-btn {
+/* 	.allmenu-categroy-btn {
 		 color: #AAB7B8;
 		 background: transparent;
 		 border: 2px solid #AAB7B8;
@@ -318,16 +373,16 @@ div.joritem-1 {
 		 margin-right: 12px;
 		 display: inline-block;
 		 text-decoration: none;
-		 /* font-family: 'Open Sans', sans-serif; */
-		 /* min-width: 120px; */
+		 font-family: 'Open Sans', sans-serif;
+		 min-width: 120px;
 	}
 
 	.allmenu-categroy-btn:hover{
 		 color: #AAB7B8;		
-	}
+	} */
 
 	/* #sidecatgegorymenu:hover, */
-	.allmenu-categroy-btn:focus,	 
+/* 	.allmenu-categroy-btn:focus,	 
 	.allmenu-categroy-btn:active,
 	.allmenu-categroy-btn.active,
 	.open .dropdown-toggle .allmenu-categroy-btn{
@@ -341,22 +396,22 @@ div.joritem-1 {
 		 margin-right: 12px;
 		 display: inline-block;
 		 text-decoration: none;
-		 /* min-width: 120px; */
+		 min-width: 120px;
          outline: none !important;
 		  -webkit-box-shadow: none !important;
 		  box-shadow: none  !important;
  
-	}
+	} */
 			
 	/* to up animation for side menu */
 	
-.side-menu
+/* .side-menu
 	{
 	position:relative;
 	animation:mymove 1s ease-out forwards;
 	animation-iteration-count:1;
 	
-	/* Safari and Chrome */
+	Safari and Chrome
 	-webkit-animation:mymove 1s;
 	-webkit-animation-iteration-count:1;
 	}
@@ -366,10 +421,10 @@ div.joritem-1 {
 	to {top:0px; opacity: 1}
 	}
 	
-	@-webkit-keyframes mymove /* Safari and Chrome */
+	@-webkit-keyframes mymove Safari and Chrome
 	{
 	from {top:50px; opacity: 0;}
 	to {top:0px; opacity: 1;}
-	}
+	} */
 	
 /* all menu slider */	
