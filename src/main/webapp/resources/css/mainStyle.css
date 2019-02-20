@@ -8,9 +8,12 @@
 /* div vertical middle */
 #vertiBox{
 	display: table;
+	width: 100%;
+	height: 100%;
 }
 
 #vertiDiv{
 	display:table-cell; 
 	vertical-align:bottom;
+	width: 100%;
 }

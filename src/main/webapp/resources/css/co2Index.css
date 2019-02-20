@@ -18,7 +18,7 @@
 	
 /* background index img */
 #idxTopSlide1{
-	background: url(../cocosImg/indexImg/ojing.jpg) no-repeat center center fixed;
+	background: url(../cocosImg/indexImg/coMainTop1.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -31,7 +31,7 @@
 }	
 
 #idxTopSlide2{
-	background: url(../cocosImg/indexImg/eggmari.PNG) no-repeat center center fixed;
+	background: url(../cocosImg/indexImg/coMainTop2.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -44,7 +44,7 @@
 }
 
 #idxTopSlide3{
-	background: url(../cocosImg/indexImg/bacon.jpg) no-repeat center center fixed;
+	background: url(../cocosImg/indexImg/coMainTop3.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -56,6 +56,18 @@
   	background-position: center center;	
 }
 
+.idxSvceBgimg{
+	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../cocosImg/indexImg/idxSvceBgimg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #434343;
+	color: #ffffff;
+    height: auto;
+    width: 100vw;
+  	background-position: center center;
+}
 
 	/* 클릭버튼 테두리 none */
 	/* .btn:focus,.btn:active {

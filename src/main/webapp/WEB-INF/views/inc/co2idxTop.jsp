@@ -24,7 +24,7 @@
 				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main" >
 					<span class="icon-bar"></span>
 				</button>
-				<a href="${pageContext.request.contextPath }" class="navbar-brand" style="font-size:35px; font-weight:bold;">CoCos Mall</a>
+				<a href="${pageContext.request.contextPath }" class="navbar-brand" style="font-size:35px; font-weight:bold;">CoCos</a>
 			</div>
 			
 			<div class="navbar-header pull-right">			
