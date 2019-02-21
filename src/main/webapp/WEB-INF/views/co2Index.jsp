@@ -98,7 +98,7 @@
 <!-- 상단 슬라이드끝 -->
 
 <!-- 중단1 리뷰 영역-->
-	<div class="container" style="padding: 50px 0 50px 0;/*  background-color:#E0E0E0; */ text-align:center;">
+	<div class="container" style="padding: 7% 0 7% 0;/*  background-color:#E0E0E0; */ text-align:center;">
 		<span style="font-size:18px; font-weight:bold; font-color:#808080;">
 			맛있어요. 집에서도 이제 닭갈비를 편하게 먹을 수 있어 좋아요. 감사합니다. 잘먹었어요~^^
 		</span><br>
@@ -116,9 +116,8 @@
 <!-- 서비스 디테일 영역-->
 	
 		<div class="idxSvceBgimg">
-			<div class="container">
-
-				<div style="text-align:center; padding:20px;">
+			<div class="container" style="margin-top:">
+				<div style="text-align:center; padding:20px 20px 50px 20px; ">
 					<span style="font-size:40px; color:#ffffff;">
 						"코코스의 기본 제공 서비스"
 					</span>
@@ -134,26 +133,33 @@
 				<div class="col-lg-3 col-md-3 col-sm-6 col-md-4" style="text-align:center; padding:20px;">
 					<i class="fas fa-shipping-fast fa-4x"></i><br><br>
 					<span style="font-size:20px; color:#ffffff;">
-						전국 배달 서비스
+						신선한 음식 그대로 전국 배달 서비스
 					</span>
 				</div>
 				
 				<div class="col-lg-3 col-md-3 col-sm-6 col-md-4" style="text-align:center; padding:20px;">
-					<i class="fas fa-tasks fa-4x"></i><br><br>
+					<i class="fas fa-utensils fa-4x"></i><br><br>
 					<span style="font-size:20px; color:#ffffff;">
-						손님의 입맛에 맞춘 개별 요청 서비스
+						서비스 문구를 작성해주세요.
 					</span>
 				</div>
 				
 				<div class="col-lg-3 col-md-3 col-sm-6 col-md-4" style="text-align:center; padding:20px;">
-					<i class="fas fa-tasks fa-4x"></i><br><br>
-					<span style="font-size:20px; font-weight:bold; color:#ffffff;">
-						손님의 입맛에 맞춘 개별 요청 서비스
+					<i class="fas fa-carrot fa-4x"></i><br><br>
+					<span style="font-size:20px; color:#ffffff;">
+						서비스 문구를 작성해주세요.
 					</span>
 				</div>
-				<!-- 서비스 설명 끝 -->
-
 			</div>
+				<!-- 서비스 설명 끝 -->
+	<!-- 대표 메뉴 -->				
+	<div class="container">
+		<div class="col-lg-3 col-md-3 col-sm-6 col-md-4" style="text-align:center; padding:20px;">
+			<div >
+			</div>
+		</div>		
+	</div>
+	<!-- 대표 메뉴 끝-->
 		</div>
 		
 <!-- 서비스 디테일 영역 끝-->
