@@ -157,10 +157,27 @@
 <!-- 서비스 메뉴영역-->
 
 
-	<!-- 대표 메뉴 -->			
-		<!-- filter btn / menu area-->
-		<div class="container" >
-			<div class="col-md-8 text-center col-centered">
+	<!-- 대표 메뉴 -->
+	<!-- out line -->			
+	<div style="background-color:#F2F4F4; min-height:80%;">
+	<!-- 메뉴 상단 문구 -->
+		  <div class="container">	    
+	        <div class="text-center" style="/* border-bottom:solid coral 1px; */ margin-top:7%;">
+	            <span style="font-weight:bold; color:#404040; font-family:BatangChe; font-size: 48px; /* padding-top:3%; */">함께하면</span>
+	            <span style="font-weight:bold; color:#FF8C00; font-family:BatangChe; font-size: 58px; /* padding-top:3%; */">'더'</span>
+	            <span style="font-weight:bold; color:#404040; font-family:BatangChe; font-size: 48px; /* padding-top:3%; */">맛있는 사이드 메뉴</span>           
+	        </div>
+	        <div class="row">
+	            <div class="col-md-8 text-center col-centered" style=" margin-bottom:5%; border:solid red 1px;">                
+	                <p class="slogan" style="font-size:20px; color:#696969; margin-top:10px; line-height:1.6em;"> 
+	                	지금까지 메뉴입니다.</p>	
+	            </div>
+	        </div>        
+		</div>
+		
+	<!-- 메뉴 상단 문구 끝-->	
+		<div class="container" style="border:solid red 1px; " >
+			<div class="col-md-8 text-center col-centered" style=" border:solid blue 1px;">
 				<div class="btn-group" data-toggle="buttons">
 				  <label class="btn side-categroy-btn active" data-sidectgry="1" >
 				    <input type="radio" name="options" id="side_btn1" autocomplete="off" checked> 
@@ -351,6 +368,7 @@
 		</div>				
 		
 	</div>
+</div>	
 	<!-- 대표 메뉴 끝-->
 
 
@@ -369,20 +387,16 @@
 
 <script type="text/javascript">
 
-	/* $(document).ready(function(){
-		$("#idxSvceBgSize").height($("#idxSvceBgimg").height);		
-	});
-	
-	
-	$(window).load(function(){
-		$(window).resize(function(){
-			var targetSize = $("#idxSvceBgSize").height();
-			var gbSize = $("#idxSvceBgimg").height();
-			if(targetSize != gbSize){
-				$("#idxSvceBgSize").height(targetSize);
-			}
-		}).resize();
-	}); */
+/* rising menu */
+$('.side-categroy-btn').on('click', function(){
+	var sbval = $(this).data("sidectgry");
+	$('div[data-sidemenu]').each(function(){
+		if($('div[data-sidemenu="'+sbval+'"]').length > 0){
+			$('div.side-menu[data-sidemenu="'+sbval+'"]').css("display", "block");
+			$('div.side-menu[data-sidemenu!="'+sbval+'"]').css("display", "none");				
+		}
+	})
+});
 </script>
 
 </html>
