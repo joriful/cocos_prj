@@ -98,19 +98,20 @@
 <!-- 상단 슬라이드끝 -->
 
 <!-- 중단1 리뷰 영역-->
-	<div class="container" style="padding: 7% 0 7% 0;/*  background-color:#E0E0E0; */ text-align:center;">
+<div class="container">
+	<div class="col-lg-6 col-md-6 col-sm-6 col-md-6" style="padding: 7% 0 7% 0;/*  background-color:#E0E0E0; */ text-align:left;">
 		<span style="font-size:18px; font-weight:bold; font-color:#808080;">
-			맛있어요. 집에서도 이제 닭갈비를 편하게 먹을 수 있어 좋아요. 감사합니다. 잘먹었어요~^^
-		</span><br>
-		<span style="font-size:15px; font-weight:bold; font-color:#808080;">
-			-배달의 민족-
-		</span><br><br>	
-			<i class="fa fa-star fa-2x" style="color:#FF9900;"></i>
-			<i class="fa fa-star fa-2x" style="color:#FF9900;"></i>
-			<i class="fa fa-star fa-2x" style="color:#FF9900;"></i>
-			<i class="fa fa-star fa-2x" style="color:#FF9900;"></i>
-			<i class="fa fa-star fa-2x" style="color:#FF9900;"></i>	
+		     <span style="font-weight:bold; color:#FF8C00; font-family:BatangChe; font-size: 58px;">환영합니다!</span><br>		
+		     <span style="font-weight:bold; color:#777777; font-family:BatangChe; font-size: 25px;">
+		     	코코스는 옛날 옛적 호랑이가 담배피던 시절 3대째 내려오는 조선시대에도 맛집이었고 지금도 맛집입니다. 글자수는 대략 500자정도 쓰면 적당할듯
+		     	코코스는 옛날 옛적 호랑이가 담배피던 시절 3대째 내려오는 조선시대에도 맛집이었고 지금도 맛집입니다. 글자수는 대략 500자정도 쓰면 적당할듯
+		     </span>
+		</span>
 	</div>
+	<div class="col-lg-6 col-md-6 col-sm-6 col-md-6" id="welcomeImga" style="border:solid red 1px; /* height:500px; */">
+		<img src="${pageContext.request.contextPath }/cocosImg/indexImg/welcomeDakg.jpg" style="width:300px; height:300px;">
+	</div>
+</div>		
 <!-- 중단1 리뷰 영역끝-->
 
 <!-- 서비스 디테일 영역-->
@@ -162,13 +163,13 @@
 	<div style="background-color:#F2F4F4; min-height:80%;">
 	<!-- 메뉴 상단 문구 -->
 		  <div class="container">	    
-	        <div class="text-center" style="/* border-bottom:solid coral 1px; */ margin-top:7%;">
-	            <span style="font-weight:bold; color:#404040; font-family:BatangChe; font-size: 48px; /* padding-top:3%; */">함께하면</span>
-	            <span style="font-weight:bold; color:#FF8C00; font-family:BatangChe; font-size: 58px; /* padding-top:3%; */">'더'</span>
-	            <span style="font-weight:bold; color:#404040; font-family:BatangChe; font-size: 48px; /* padding-top:3%; */">맛있는 사이드 메뉴</span>           
+	        <div class="text-center" style=" margin-top:7%;">
+	            <span style="font-weight:bold; color:#404040; font-family:BatangChe; font-size: 48px;">코코스의</span>
+	            <span style="font-weight:bold; color:#FF8C00; font-family:BatangChe; font-size: 58px;">모든</span>
+	            <span style="font-weight:bold; color:#404040; font-family:BatangChe; font-size: 48px;">메뉴</span>           
 	        </div>
-	        <div class="row">
-	            <div class="col-md-8 text-center col-centered" style=" margin-bottom:5%; border:solid red 1px;">                
+	        <div class="row" style="">
+	            <div class="col-md-8 text-center col-centered" style=" margin-bottom:5%;">                
 	                <p class="slogan" style="font-size:20px; color:#696969; margin-top:10px; line-height:1.6em;"> 
 	                	지금까지 메뉴입니다.</p>	
 	            </div>
@@ -176,8 +177,8 @@
 		</div>
 		
 	<!-- 메뉴 상단 문구 끝-->	
-		<div class="container" style="border:solid red 1px; " >
-			<div class="col-md-8 text-center col-centered" style=" border:solid blue 1px;">
+		<div class="container" style="" >
+			<div class="col-md-8 text-center col-centered" style="">
 				<div class="btn-group" data-toggle="buttons">
 				  <label class="btn side-categroy-btn active" data-sidectgry="1" >
 				    <input type="radio" name="options" id="side_btn1" autocomplete="off" checked> 
@@ -370,6 +371,22 @@
 	</div>
 </div>	
 	<!-- 대표 메뉴 끝-->
+<!-- 하단 리뷰 영역-->
+	<div class="container" style="padding: 7% 0 7% 0;/*  background-color:#E0E0E0; */ text-align:center;">
+		<span style="font-size:18px; font-weight:bold; font-color:#808080;">
+			맛있어요. 집에서도 이제 닭갈비를 편하게 먹을 수 있어 좋아요. 감사합니다. 잘먹었어요~^^
+		</span><br>
+		<span style="font-size:15px; font-weight:bold; font-color:#808080;">
+			-배달의 민족-
+		</span><br><br>	
+			<i class="fa fa-star fa-2x" style="color:#FF9900;"></i>
+			<i class="fa fa-star fa-2x" style="color:#FF9900;"></i>
+			<i class="fa fa-star fa-2x" style="color:#FF9900;"></i>
+			<i class="fa fa-star fa-2x" style="color:#FF9900;"></i>
+			<i class="fa fa-star fa-2x" style="color:#FF9900;"></i>	
+	</div>
+<!-- 하단 리뷰 영역끝-->
+
 
 
 	<div style="height:800px">
