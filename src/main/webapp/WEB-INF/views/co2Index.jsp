@@ -109,7 +109,8 @@
 		</span>
 	</div>
 	<div class="col-lg-6 col-md-6 col-sm-6 col-md-6" id="welcomeImga" style="border:solid red 1px; /* height:500px; */">
-		<img src="${pageContext.request.contextPath }/cocosImg/indexImg/welcomeDakg.jpg" style="width:300px; height:300px;">
+		<img src="${pageContext.request.contextPath }/cocosImg/indexImg/welcomeDakg.jpg" style="/* width:300px; height:300px; */">
+		<%-- <img src="${pageContext.request.contextPath }/my_icon/${ptBean.myIcon}" id="iconByPtList" class="img-circle"> --%>
 	</div>
 </div>		
 <!-- 중단1 리뷰 영역끝-->
