@@ -98,17 +98,18 @@
 <!-- 상단 슬라이드끝 -->
 
 <!-- 중단1 리뷰 영역-->
-<div class="container">
-	<div class="col-lg-6 col-md-6 col-sm-6 col-md-6" style="padding: 7% 0 7% 0;/*  background-color:#E0E0E0; */ text-align:left;">
-		<span style="font-size:18px; font-weight:bold; font-color:#808080;">
+<div class="container-fluid" style="text-align:center; /* max-width:1250px */">
+	<div class="col-lg-6 col-md-8 col-sm-8 col-md-8" style="/* padding: 7% 2% 7% 2%; */ text-align:left;
+		border:solid blue 1px;">
+		<span style="font-size:18px; font-weight:bold; font-color:#808080; ">
 		     <span style="font-weight:bold; color:#FF8C00; font-family:BatangChe; font-size: 58px;">환영합니다!</span><br>		
-		     <span style="font-weight:bold; color:#777777; font-family:BatangChe; font-size: 25px;">
-		     	코코스는 옛날 옛적 호랑이가 담배피던 시절 3대째 내려오는 조선시대에도 맛집이었고 지금도 맛집입니다. 글자수는 대략 500자정도 쓰면 적당할듯
-		     	코코스는 옛날 옛적 호랑이가 담배피던 시절 3대째 내려오는 조선시대에도 맛집이었고 지금도 맛집입니다. 글자수는 대략 500자정도 쓰면 적당할듯
+		     <span style="font-weight:bold; color:#777777; font-family:BatangChe; font-size: 18px;">
+		     	코코스는 옛날 옛적 호랑이가 담배피던 시절 3대째 내려오는 조선시대에도 맛집이었고 지금도 맛집입니다. <br><br>글자수는 대략 500자정도 쓰면 적당할듯
+		     	코코스는 옛날 옛적 호랑이가 담배피던 시절 3대째 내려오는 조선시대에도 맛집이었고 지금도 맛집입니다. <br>글자수는 대략 500자정도 쓰면 적당할듯
 		     </span>
 		</span>
 	</div>
-	<div class="col-lg-6 col-md-6 col-sm-6 col-md-6" style="border:solid red 1px; padding: 7% 2% 7% 2%;">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-md-6" style="border:solid red 1px; /* padding: 2% 2% 2% 2%; */ /* min-width:500px; */">
 		<img class="img-responsive" src="${pageContext.request.contextPath }/resources/cocosImg/indexImg/welcomeDakg.jpg"
 			style="padding: 7% 0 7% 0;">
 	</div>
