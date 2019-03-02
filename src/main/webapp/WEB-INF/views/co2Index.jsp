@@ -112,7 +112,7 @@
 	</div>
 	<div class="col-lg-6 col-md-6 col-sm-12 col-md-6" style="border:solid red 1px; padding: 7% 0 7% 0;">
 		<img class="img-responsive" src="${pageContext.request.contextPath }/resources/cocosImg/indexImg/welcomeDakg.jpg"
-			style="/* padding: 7% 0 7% 0; */">
+			style="/* padding: 7% 0 7% 0; */ width:700px;">
 	</div>
 </div>		
 <!-- 중단1 리뷰 영역끝-->
@@ -417,6 +417,8 @@ $('.side-categroy-btn').on('click', function(){
 		}
 	})
 });
+
+$()992
 </script>
 
 </html>
