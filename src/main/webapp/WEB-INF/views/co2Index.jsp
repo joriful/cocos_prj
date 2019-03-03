@@ -98,21 +98,18 @@
 <!-- 상단 슬라이드끝 -->
 
 <!-- 중단1 리뷰 영역-->
-<div class="container-fluid" style="/* text-align:center; */ /* max-width:1250px */">
-	<div class="col-lg-6 col-md-6 col-sm-12 col-md-6" style="padding: 7% 0 7% 0; /* text-align:left; */
-		border:solid blue 1px; /* max-width:400px; */">
-		<div style="font-size:18px; font-weight:bold; font-color:#808080; padding:20px; border:solid black 1px;
-			text-align:left;">
+<div class="container" >
+	<div class="col-lg-5 col-md-5 col-sm-12 col-md-5" style="padding: 5% 0 0 0;">
+		<div style="font-size:18px; font-weight:bold; font-color:#808080; padding:20px; text-align:left;">
 		     <span style="font-weight:bold; color:#FF8C00; font-family:BatangChe; font-size: 45px; ">환영합니다!</span><br>		
 		     <span style="font-weight:bold; color:#777777; font-family:BatangChe; font-size: 16px; ">
-		     	코코스는 옛날 옛적 호랑이가 담배피던 시절 3대째 내려오는 조선시대에도 맛집이었고 지금도 맛집입니다. <br><br>글자수는 대략 500자정도 쓰면 적당할듯
-		     	코코스는 옛날 옛적 호랑이가 담배피던 시절 3대째 내려오는 조선시대에도 맛집이었고 지금도 맛집입니다. <br>글자수는 대략 500자정도 쓰면 적당할듯
+		     	코코스는 옛날 옛적 호랑이가 담배피던 시절 3대째 내려오는 조선시대에도 맛집이었고 지금도 맛집입니다. <br><br>글자수는 대략 100자정도 쓰면 적당할듯
+		     	
 		     </span>
 		</div>
 	</div>
-	<div class="col-lg-6 col-md-6 col-sm-12 col-md-6" style="border:solid red 1px; padding: 7% 0 7% 0;">
-		<img class="img-responsive" src="${pageContext.request.contextPath }/resources/cocosImg/indexImg/welcomeDakg.jpg"
-			style="/* padding: 7% 0 7% 0; */ width:700px;">
+	<div class="col-lg-7 col-md-7 col-sm-12 col-md-7" style=" padding: 5% 0 5% 0;">
+		<img class="img-responsive" src="${pageContext.request.contextPath }/resources/cocosImg/indexImg/welcomeDakg.jpg">
 	</div>
 </div>		
 <!-- 중단1 리뷰 영역끝-->
@@ -159,6 +156,23 @@
 		</div>
 <!-- 서비스 디테일 영역 끝-->
 <!-- 서비스 메뉴영역-->
+
+<!-- 중하단 리뷰 영역-->
+	<div class="container" style="padding: 7% 0 7% 0;/*  background-color:#E0E0E0; */ text-align:center;">
+		<span style="font-size:18px; font-weight:bold; font-color:#808080;">
+			맛있어요. 집에서도 이제 닭갈비를 편하게 먹을 수 있어 좋아요. 감사합니다. 잘먹었어요~^^
+		</span><br>
+		<span style="font-size:15px; font-weight:bold; font-color:#808080;">
+			-배달의 민족-
+		</span><br><br>	
+			<i class="fa fa-star fa-2x" style="color:#FF9900;"></i>
+			<i class="fa fa-star fa-2x" style="color:#FF9900;"></i>
+			<i class="fa fa-star fa-2x" style="color:#FF9900;"></i>
+			<i class="fa fa-star fa-2x" style="color:#FF9900;"></i>
+			<i class="fa fa-star fa-2x" style="color:#FF9900;"></i>	
+	</div>
+<!-- 중하단 리뷰 영역끝-->
+
 
 
 	<!-- 대표 메뉴 -->
@@ -374,28 +388,6 @@
 	</div>
 </div>	
 	<!-- 대표 메뉴 끝-->
-<!-- 하단 리뷰 영역-->
-	<div class="container" style="padding: 7% 0 7% 0;/*  background-color:#E0E0E0; */ text-align:center;">
-		<span style="font-size:18px; font-weight:bold; font-color:#808080;">
-			맛있어요. 집에서도 이제 닭갈비를 편하게 먹을 수 있어 좋아요. 감사합니다. 잘먹었어요~^^
-		</span><br>
-		<span style="font-size:15px; font-weight:bold; font-color:#808080;">
-			-배달의 민족-
-		</span><br><br>	
-			<i class="fa fa-star fa-2x" style="color:#FF9900;"></i>
-			<i class="fa fa-star fa-2x" style="color:#FF9900;"></i>
-			<i class="fa fa-star fa-2x" style="color:#FF9900;"></i>
-			<i class="fa fa-star fa-2x" style="color:#FF9900;"></i>
-			<i class="fa fa-star fa-2x" style="color:#FF9900;"></i>	
-	</div>
-<!-- 하단 리뷰 영역끝-->
-
-
-
-	<div style="height:800px">
-		dd
-	
-	</div>
 
 <!-- 서비스 메뉴영역 끝-->
 
@@ -418,7 +410,7 @@ $('.side-categroy-btn').on('click', function(){
 	})
 });
 
-$()992
+
 </script>
 
 </html>
