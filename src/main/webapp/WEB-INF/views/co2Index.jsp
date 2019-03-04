@@ -177,7 +177,7 @@
 
 	<!-- 대표 메뉴 -->
 	<!-- out line -->			
-	<div style="background-color:#F2F4F4; min-height:80%;">
+	<div style="background-color:#F2F4F4; padding-bottom:50px; min-height:80%;">
 	<!-- 메뉴 상단 문구 -->
 		  <div class="container">	    
 	        <div class="text-center" style=" margin-top:7%;">
@@ -199,15 +199,15 @@
 				<div class="btn-group" data-toggle="buttons">
 				  <label class="btn side-categroy-btn active" data-sidectgry="1" >
 				    <input type="radio" name="options" id="side_btn1" autocomplete="off" checked> 
-				    <span id="menuprice-1">기본 사이드</span>
+				    <span id="menuprice-1">닭갈비 세트</span>
 				  </label>
 				  <label class="btn side-categroy-btn" data-sidectgry="2">
 				    <input type="radio" name="options" id="side_btn2" autocomplete="off" >
-				    <span id="menuprice-1">볶음 추가</span>
+				    <span id="menuprice-1">닭갈비 메뉴</span>
 				  </label>
 				  <label class="btn side-categroy-btn"  data-sidectgry="3">
 				    <input type="radio" name="options" id="side_btn3" autocomplete="off">
-				    <span id="menuprice-1">조림 추가</span>
+				    <span id="menuprice-1">별미 메뉴</span>
 				  </label>
 				</div>				
 			</div>
@@ -220,7 +220,7 @@
 								  <div class="media-left">
 								  	<div class="media-object">
 										<div class="img-circle" id="recomenu_box"
-											style="background-image:url('${pageContext.request.contextPath}/resources/divImgs/menu/jjbe1.jpg'); 
+											style="background-image:url('${pageContext.request.contextPath}/resources/cocosImg/menuImg/docgalbi1.jpg'); 
 											background-position: center center; width:100px; height:100px; background-size: 140px;
 											background-repeat: no-repeat; float:left; margin-right:10px;">
 										</div>
@@ -228,14 +228,15 @@
 								 </div>
 								<div class="media-body" style="" >					
 									<p class="media-heading" style="font-size:20px; font-weight:bold;">
-										계란말이
+										우정세트
 									</p>
 									<p class="media-heading" style="color:#95A5A6;">
-										가나다라가나다라가나다라가나다라가나다라가나다라가나다라가나다라가나다라가나다라가나다라가나다라나다라가나다라가나다라가나다라
+										기본반찬+부침개+냉국+쌈+특제소스
 									</p>
 									<p class="media-heading" style="font-size:25px; /* font-weight:bold; */ color:#FF8C00;">
 										<i class="fa fa-krw" aria-hidden="true"></i> 
-										<fmt:formatNumber value="6000" type="Number" pattern="##,###"/>&nbsp;
+										<fmt:formatNumber value="25000" type="Number" pattern="##,###"/>원 ~ 
+										<fmt:formatNumber value="45000" type="Number" pattern="##,###"/>원&nbsp;
 									</p>
 								</div>
 							</div>
@@ -246,7 +247,7 @@
 								  <div class="media-left">
 								  	<div class="media-object">
 										<div class="img-circle" id="recomenu_box"
-											style="background-image:url('${pageContext.request.contextPath}/resources/divImgs/menu/jjur1.jpg'); 
+											style="background-image:url('${pageContext.request.contextPath}/resources/cocosImg/menuImg/docgalbi2.jpg'); 
 											background-position: center center; width:100px; height:100px; background-size: 140px;
 											background-repeat: no-repeat; float:left; margin-right:10px;">
 										</div>
@@ -254,18 +255,46 @@
 								 </div>
 								<div class="media-body" style="" >					
 									<p class="media-heading" style="font-size:20px; font-weight:bold;">
-										소세지&베이컨 양파볶음
+										해물닭갈비세트
 									</p>
 									<p class="media-heading" style="color:#95A5A6;">
-										가나다라가나다라가나다라가나다라가나다라가나다라가나다라가나다라가나다라가나다라가나다라가나다라나다라가나다라가나다라가나다라
+										우정세트+오징어한마리+왕새우6미+우동사리
 									</p>
 									<p class="media-heading" style="font-size:25px; /* font-weight:bold; */ color:#FF8C00;">
 										<i class="fa fa-krw" aria-hidden="true"></i> 
-										<fmt:formatNumber value="5000" type="Number" pattern="##,###"/>&nbsp;
+										<fmt:formatNumber value="35000" type="Number" pattern="##,###"/>원 ~ 
+										<fmt:formatNumber value="55000" type="Number" pattern="##,###"/>원&nbsp;
 									</p>
 								</div>
 							</div>
 					</div>
+				<!-- side1-3 -->
+						<div class="col-sm-6" style="margin-top:20px; display: inline-block; float:left;">
+							<div class="media">
+								  <div class="media-left">
+								  	<div class="media-object">
+										<div class="img-circle" id="recomenu_box"
+											style="background-image:url('${pageContext.request.contextPath}/resources/cocosImg/menuImg/docgalbi2.jpg'); 
+											background-position: center center; width:100px; height:100px; background-size: 140px;
+											background-repeat: no-repeat; float:left; margin-right:10px;">
+										</div>
+									</div>
+								 </div>
+								<div class="media-body" style="" >					
+									<p class="media-heading" style="font-size:20px; font-weight:bold;">
+										해물닭갈비세트
+									</p>
+									<p class="media-heading" style="color:#95A5A6;">
+										우정세트+오징어한마리+왕새우6미+우동사리
+									</p>
+									<p class="media-heading" style="font-size:25px; /* font-weight:bold; */ color:#FF8C00;">
+										<i class="fa fa-krw" aria-hidden="true"></i> 
+										<fmt:formatNumber value="35000" type="Number" pattern="##,###"/>원 ~ 
+										<fmt:formatNumber value="55000" type="Number" pattern="##,###"/>원&nbsp;
+									</p>
+								</div>
+							</div>
+					</div>					
 			</div>
 		</div>
 
