@@ -211,18 +211,19 @@
 				  </label>
 				</div>				
 			</div>
-
-			<!-- side1-1 -->		
+			
+<!-- 닭갈비 세트 카테고리 -->
 			<div class="side-menu" data-sidemenu="1" style="margin-top:20px; position:inline; display:block;">
 				<div class="col-md-12" id="side1" >
-						<div class="col-sm-6" style="margin-top:20px; display: inline-block; float:left;">
+					<!-- side 갈비세트1 -->	
+						<div class="col-sm-6" style="margin-top:20px; display: inline-block; float:left; margin-bottom:5px;">
 							<div class="media">
 								  <div class="media-left">
 								  	<div class="media-object">
 										<div class="img-circle" id="recomenu_box"
 											style="background-image:url('${pageContext.request.contextPath}/resources/cocosImg/menuImg/docgalbi1.jpg'); 
 											background-position: center center; width:100px; height:100px; background-size: 140px;
-											background-repeat: no-repeat; float:left; margin-right:10px;">
+											background-repeat: no-repeat; float:left; margin-right:10px; ">
 										</div>
 									</div>
 								 </div>
@@ -231,17 +232,46 @@
 										우정세트
 									</p>
 									<p class="media-heading" style="color:#95A5A6;">
-										기본반찬+부침개+냉국+쌈+특제소스
+										기본반찬+부침개+냉국+쌈+특제소스<br>
+										설명은 최소 3줄이상<br>
+										설명은 최소 3줄이상<br>
 									</p>
 									<p class="media-heading" style="font-size:25px; /* font-weight:bold; */ color:#FF8C00;">
-										<i class="fa fa-krw" aria-hidden="true"></i> 
 										<fmt:formatNumber value="25000" type="Number" pattern="##,###"/>원 ~ 
-										<fmt:formatNumber value="45000" type="Number" pattern="##,###"/>원&nbsp;
+										<fmt:formatNumber value="45000" type="Number" pattern="##,###"/>원
 									</p>
 								</div>
 							</div>
 					</div>
-				<!-- side1-2 -->
+				<!-- side 갈비세트2-->
+						<div class="col-sm-6" style="margin-top:20px; display: inline-block; float:left; margin-bottom:5px;">
+							<div class="media">
+								  <div class="media-left">
+								  	<div class="media-object">
+										<div class="img-circle" id="recomenu_box"
+											style="background-image:url('${pageContext.request.contextPath}/resources/cocosImg/menuImg/docgalbi2.jpg'); 
+											background-position: center center; width:100px; height:100px; background-size: 140px;
+											background-repeat: no-repeat; float:left; margin-right:10px;">
+										</div>
+									</div>
+								 </div>
+								<div class="media-body" style="" >					
+									<p class="media-heading" style="font-size:20px; font-weight:bold;">
+										해물닭갈비세트
+									</p>
+									<p class="media-heading" style="color:#95A5A6;">
+										우정세트+오징어한마리+왕새우6미+우동사리<br>
+										설명은 최소 3줄이상<br>
+										설명은 최소 3줄이상<br>
+									</p>
+									<p class="media-heading" style="font-size:25px; /* font-weight:bold; */ color:#FF8C00;">
+										<fmt:formatNumber value="35000" type="Number" pattern="##,###"/>원 ~ 
+										<fmt:formatNumber value="55000" type="Number" pattern="##,###"/>원
+									</p>
+								</div>
+							</div>
+					</div>
+				<!-- side 갈비세트3 -->
 						<div class="col-sm-6" style="margin-top:20px; display: inline-block; float:left;">
 							<div class="media">
 								  <div class="media-left">
@@ -258,17 +288,18 @@
 										해물닭갈비세트
 									</p>
 									<p class="media-heading" style="color:#95A5A6;">
-										우정세트+오징어한마리+왕새우6미+우동사리
+										우정세트+오징어한마리+왕새우6미+우동사리<br>
+										설명은 최소 3줄이상<br>
+										설명은 최소 3줄이상<br>
 									</p>
 									<p class="media-heading" style="font-size:25px; /* font-weight:bold; */ color:#FF8C00;">
-										<i class="fa fa-krw" aria-hidden="true"></i> 
 										<fmt:formatNumber value="35000" type="Number" pattern="##,###"/>원 ~ 
-										<fmt:formatNumber value="55000" type="Number" pattern="##,###"/>원&nbsp;
+										<fmt:formatNumber value="55000" type="Number" pattern="##,###"/>원
 									</p>
 								</div>
 							</div>
-					</div>
-				<!-- side1-3 -->
+					</div>		
+				<!-- side 갈비세트4 -->
 						<div class="col-sm-6" style="margin-top:20px; display: inline-block; float:left;">
 							<div class="media">
 								  <div class="media-left">
@@ -285,16 +316,17 @@
 										해물닭갈비세트
 									</p>
 									<p class="media-heading" style="color:#95A5A6;">
-										우정세트+오징어한마리+왕새우6미+우동사리
+										우정세트+오징어한마리+왕새우6미+우동사리<br>
+										설명은 최소 3줄이상<br>
+										설명은 최소 3줄이상<br>
 									</p>
 									<p class="media-heading" style="font-size:25px; /* font-weight:bold; */ color:#FF8C00;">
-										<i class="fa fa-krw" aria-hidden="true"></i> 
 										<fmt:formatNumber value="35000" type="Number" pattern="##,###"/>원 ~ 
-										<fmt:formatNumber value="55000" type="Number" pattern="##,###"/>원&nbsp;
+										<fmt:formatNumber value="55000" type="Number" pattern="##,###"/>원
 									</p>
 								</div>
 							</div>
-					</div>					
+					</div>									
 			</div>
 		</div>
 
