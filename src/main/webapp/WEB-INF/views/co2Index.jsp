@@ -213,7 +213,7 @@
 			</div>
 			
 <!-- 닭갈비 세트 카테고리 -->
-			<div class="side-menu" data-sidemenu="1" style="margin-top:20px; position:inline; display:block;">
+			<div class="side-menu" data-sidemenu="1" style="margin-top:20px; position:inline; display:block; ">
 				<div class="col-md-12" id="side1" >
 					<!-- side 갈비세트1 -->	
 						<div class="col-sm-6" style="margin-top:20px; display: inline-block; float:left; margin-bottom:5px;">
@@ -229,7 +229,7 @@
 								 </div>
 								<div class="media-body" style="" >					
 									<p class="media-heading" style="font-size:20px; font-weight:bold;">
-										우정세트
+										우정닭갈비세트
 									</p>
 									<p class="media-heading" style="color:#95A5A6;">
 										기본반찬+부침개+냉국+쌈+특제소스<br>
@@ -257,7 +257,7 @@
 								 </div>
 								<div class="media-body" style="" >					
 									<p class="media-heading" style="font-size:20px; font-weight:bold;">
-										해물닭갈비세트
+										사랑세트
 									</p>
 									<p class="media-heading" style="color:#95A5A6;">
 										우정세트+오징어한마리+왕새우6미+우동사리<br>
@@ -277,7 +277,7 @@
 								  <div class="media-left">
 								  	<div class="media-object">
 										<div class="img-circle" id="recomenu_box"
-											style="background-image:url('${pageContext.request.contextPath}/resources/cocosImg/menuImg/docgalbi2.jpg'); 
+											style="background-image:url('${pageContext.request.contextPath}/resources/cocosImg/menuImg/docgalbi3.jpg'); 
 											background-position: center center; width:100px; height:100px; background-size: 140px;
 											background-repeat: no-repeat; float:left; margin-right:10px;">
 										</div>
@@ -285,7 +285,7 @@
 								 </div>
 								<div class="media-body" style="" >					
 									<p class="media-heading" style="font-size:20px; font-weight:bold;">
-										해물닭갈비세트
+										행복세트
 									</p>
 									<p class="media-heading" style="color:#95A5A6;">
 										우정세트+오징어한마리+왕새우6미+우동사리<br>
@@ -305,7 +305,7 @@
 								  <div class="media-left">
 								  	<div class="media-object">
 										<div class="img-circle" id="recomenu_box"
-											style="background-image:url('${pageContext.request.contextPath}/resources/cocosImg/menuImg/docgalbi2.jpg'); 
+											style="background-image:url('${pageContext.request.contextPath}/resources/cocosImg/menuImg/docgalbi4.jpg'); 
 											background-position: center center; width:100px; height:100px; background-size: 140px;
 											background-repeat: no-repeat; float:left; margin-right:10px;">
 										</div>
@@ -313,7 +313,7 @@
 								 </div>
 								<div class="media-body" style="" >					
 									<p class="media-heading" style="font-size:20px; font-weight:bold;">
-										해물닭갈비세트
+										추억세트
 									</p>
 									<p class="media-heading" style="color:#95A5A6;">
 										우정세트+오징어한마리+왕새우6미+우동사리<br>
