@@ -5,10 +5,7 @@
 <%-- <%@ include file="inc/co2idxTop.jsp" %> --%>
 <%-- <c:set var="idxTopLine" value="${pageContext.request.contextPath}"/> --%>
 <%-- <jsp:include page="${pageContext.request.contextPath}/inc/co2idxTop.jsp"/> --%>
-<jsp:include page="../inc/co2idxTop.jsp"></jsp:include>
-
-
-
+	<%-- <jsp:include page="../inc/co2idxTop.jsp"></jsp:include> --%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,11 +14,16 @@
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/co2Index.css">
 </head>
 <body>
-<!-- 주문선택 -->
-<div>
+
+<div id="mSlctBodySize" style="/* margin-bottom:100px; */">
+	<jsp:include page="../inc/co2idxTop.jsp"></jsp:include>
+</div>
+
+<!-- 메뉴셀렉트 바디 -->
+<div >
 		
 		<!-- 중단1 리뷰 영역-->
-	<div class="container" >
+	<div class="container" style="background-color:gray;" >
 		<div class="col-lg-7 col-md-7 col-sm-12 col-md-7" style=" padding: 5% 0 5% 0;">
 			<img class="img-responsive" src="${pageContext.request.contextPath }/resources/cocosImg/indexImg/welcomeDakg.jpg">
 		</div>
@@ -36,11 +38,37 @@
 		</div>		
 	</div>		
 		
-		
-		
 </div>
 
-
-
 </body>
+
+	<script type="text/javascript">
+	
+	/* $(window).on('resize',function() {
+		var hidA = $('#idx_Page_upload_Menu'); 
+		var hidB = $('#idx_Page_view_Menu');
+		
+		var maxH  = Math.max(hidA.height(), hidB.height());
+			if($(hidA).height() != maxH){
+				$(hidA).height($(hidB).height());
+			}
+			if($(hidB).height() != maxH){
+				$(hidB).height($(hidA).height());
+			}
+	});
+	$(document).ready(function() {
+	    $(window).trigger('resize');
+	}); */
+	
+	$(window).on('resize',function() {
+		var th = $('#topMenuHsize').height();
+		
+		$('#mSlctBodySize').css({ marginBottom : th + 'px' });
+
+	});
+	
+	
+	
+	</script>
+
 </html>

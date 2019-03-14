@@ -18,7 +18,7 @@
 	<!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 </head>
 <!-- <body style=""> -->
-	<div class="navbar navbar-default navbar-fixed-top" style="background:#000000; border:#000000; opacity: 0.7;/* background:transparent; border:transparent; box-shadow: none; */">
+	<div id="topMenuHsize" class="navbar navbar-default navbar-fixed-top" style="background:#000000; border:#000000; opacity: 0.7;/* background:transparent; border:transparent; box-shadow: none; */">
 		<div class="container">
 			<div class="navbar-header" id="jori-bi">
 				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main" >
