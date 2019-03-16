@@ -215,6 +215,17 @@
     }
 }
     
+   /* 1080px일때 margin 이벤트 */ 
+   /* #mSlctBodySize {
+        margin-bottom: 50px;
+    }
+    @media only screen and (max-width: 1080px) {
+      #mSlctBodySize {
+        margin-bottom: 100px;
+      }
+    } */
+  
+  
   
 	
 /* all menu slider */	
