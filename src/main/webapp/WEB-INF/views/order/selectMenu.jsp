@@ -41,9 +41,32 @@
 			</div>
 		</div>
 		
-		<!-- 메뉴옵션 -->
-		<div>
-			
+		<!-- 체크박스 메뉴옵션 -->
+		<div class="col-lg-5 col-md-5 col-sm-12 col-md-5" style="padding: 5% 0 5% 0;">
+			<form>
+				<h2>2. Customs Radios</h2>
+				<div class="form-check">
+					<label>
+						<input type="radio" name="radio" checked> <span class="label-text">Option 01</span>
+					</label>
+				</div>
+				<div class="form-check">
+					<label>
+						<input type="radio" name="radio"> <span class="label-text">Option 02</span>
+					</label>
+				</div>
+				<div class="form-check">
+					<label>
+						<input type="radio" name="radio"> <span class="label-text">Option 03</span>
+					</label>
+				</div>
+				<div class="form-check">
+					<label>
+						<input type="radio" name="radio" disabled> <span class="label-text">Option 04</span>
+					</label>
+				</div>
+			</form>
+
 		</div>
 		<!-- 메뉴옵션 -->
 		
