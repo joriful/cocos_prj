@@ -41,28 +41,41 @@
 			</div>
 		</div>
 		
-		<!-- 체크박스 메뉴옵션 -->
+		<!-- 메뉴옵션 -->
 		<div class="col-lg-5 col-md-5 col-sm-12 col-md-5" style="padding: 5% 0 5% 0;">
 			<form>
-				<h2>2. Customs Radios</h2>
+			
+				<!-- 가격셀렉트  -->
+			<div class="dropdown" style="margin-bottom:10px;">
+			  <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+			    <fmt:formatNumber value="25000" type="Number" pattern="##,###"/>원
+			    <span class="caret"></span>
+			  </button>
+			  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+			    <li><a href="#" data-value="action">Action</a></li>
+			    <li><a href="#" data-value="another action">Another action</a></li>
+			    <li><a href="#" data-value="something else here">Something else here</a></li>
+			    <li><a href="#" data-value="separated link">Separated link</a></li>
+			  </ul>
+			</div>
+			
+				<!-- 맛옵션 -->			
+				<span style="font-size:25px; font-weight:bold; ">
+					맛 선택
+				</span>
 				<div class="form-check">
 					<label>
-						<input type="radio" name="radio" checked> <span class="label-text">Option 01</span>
+						<input type="radio" name="radio" checked> <span class="label-text">엄청난맛</span>
 					</label>
 				</div>
 				<div class="form-check">
 					<label>
-						<input type="radio" name="radio"> <span class="label-text">Option 02</span>
+						<input type="radio" name="radio"> <span class="label-text">환상적인맛</span>
 					</label>
 				</div>
 				<div class="form-check">
 					<label>
-						<input type="radio" name="radio"> <span class="label-text">Option 03</span>
-					</label>
-				</div>
-				<div class="form-check">
-					<label>
-						<input type="radio" name="radio" disabled> <span class="label-text">Option 04</span>
+						<input type="radio" name="radio"> <span class="label-text">놀라운맛</span>
 					</label>
 				</div>
 			</form>

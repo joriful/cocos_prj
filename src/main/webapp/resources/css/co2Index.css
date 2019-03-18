@@ -230,7 +230,7 @@
 		position: relative;
 		cursor: pointer;
 		color: #666;
-		font-size: 30px;
+		font-size: 18px;
 	}
 	
 	input[type="checkbox"], input[type="radio"]{
@@ -290,7 +290,7 @@
 	input[type="radio"]:checked + .label-text:before{
 		content: "\f192";
 		font-family: "Font Awesome 5 Free";	
-		color: #8e44ad;
+		color: #FFA500;
 		animation: effect 250ms ease-in;
 	}
 	
