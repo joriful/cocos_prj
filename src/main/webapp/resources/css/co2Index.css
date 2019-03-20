@@ -241,8 +241,8 @@
 	
 	/*Check box*/
 	input[type="checkbox"] + .label-text:before{
-		content: "\f096";
-		font-family: "FontAwesome";
+		content: "\f0c8";
+		font-family: "Font Awesome 5 Free";
 		speak: none;
 		font-style: normal;
 		font-weight: normal;
@@ -257,16 +257,18 @@
 	
 	input[type="checkbox"]:checked + .label-text:before{
 		content: "\f14a";
-		color: #2980b9;
+		font-family: "Font Awesome 5 Free";		
+		color: #FFA500;
 		animation: effect 250ms ease-in;
 	}
 	
 	input[type="checkbox"]:disabled + .label-text{
-		color: #aaa;
+		color: #aaa;		
 	}
 	
 	input[type="checkbox"]:disabled + .label-text:before{
 		content: "\f0c8";
+		font-family: "Font Awesome 5 Free";		
 		color: #ccc;
 	}
 	

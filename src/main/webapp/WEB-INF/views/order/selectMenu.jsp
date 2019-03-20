@@ -46,21 +46,45 @@
 			<form>
 			
 				<!-- 가격셀렉트  -->
-			<div class="dropdown" style="margin-bottom:10px;">
-			  <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-			    <fmt:formatNumber value="25000" type="Number" pattern="##,###"/>원
-			    <span class="caret"></span>
-			  </button>
+			<span style="font-size:20px; font-weight:bold; padding-bottom:10px;">
+				기본
+			</span>
+			<div class="dropdown" style="margin-bottom:10px; ">
+			  <!-- <div style=""> -->
+				  <button class="btn btn-warning dropdown-toggle" style="font-weight:bold;" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    <span style="font-weight:bold; ">소 (600g)</span>
+				    <fmt:formatNumber value="25000" type="Number" pattern="##,###"/>원
+				    <span class="caret"></span>
+				  </button>
+			  <!-- </div> -->
 			  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-			    <li><a href="#" data-value="action">Action</a></li>
-			    <li><a href="#" data-value="another action">Another action</a></li>
-			    <li><a href="#" data-value="something else here">Something else here</a></li>
-			    <li><a href="#" data-value="separated link">Separated link</a></li>
+			    <li>
+				    <a href="#" data-value="another action">
+				    	<span style="font-weight:bold;">소 (600g)</span>
+				    	<fmt:formatNumber value="25000" type="Number" pattern="##,###"/>원
+				    </a>
+			    </li>
+			    <li>
+			    	<a href="#" data-value="something else here">
+			  			<span style="font-weight:bold;">중 (900g)</span>
+				    	<fmt:formatNumber value="35000" type="Number" pattern="##,###"/>원
+			    	</a>
+			    </li>
+			    <li>
+				    <a href="#" data-value="separated link">
+						<span style="font-weight:bold;">대 (1200g)</span>
+				    	<fmt:formatNumber value="45000" type="Number" pattern="##,###"/>원
+				    </a>
+			    </li>
 			  </ul>
 			</div>
 			
+			<!-- 경계선 -->
+			<div style="border-bottom:solid #AAAAAA 1px; padding-bottom: 10px; margin-bottom: 10px;">
+			</div>
+			
 				<!-- 맛옵션 -->			
-				<span style="font-size:25px; font-weight:bold; ">
+				<span style="font-size:20px; font-weight:bold; padding-bottom:10px;">
 					맛 선택
 				</span>
 				<div class="form-check">
@@ -73,11 +97,49 @@
 						<input type="radio" name="radio"> <span class="label-text">환상적인맛</span>
 					</label>
 				</div>
-				<div class="form-check">
+				<div class="form-check" style="border-bottom:solid #AAAAAA 1px; padding-bottom: 10px;">
 					<label>
 						<input type="radio" name="radio"> <span class="label-text">놀라운맛</span>
 					</label>
 				</div>
+				
+				<!-- 맛옵션 -->
+				<span style="font-size:20px; font-weight:bold; padding-bottom:10px;">
+					닭갈비 추가선택
+				</span>
+				<div class="form-check">
+					<label>
+						<input type="checkbox" name="check"> 
+							<span class="label-text">
+								듬뿍떡사리 추가
+								<fmt:formatNumber value="2000" type="Number" pattern="##,###"/>원
+							</span>
+					</label>
+				</div>
+				<div class="form-check">
+					<label>
+						<input type="checkbox" name="check"> 
+							<span class="label-text">
+								듬뿍떡사리 추가
+							</span>
+					</label>
+				</div>
+				<div class="form-check">
+					<label>
+						<input type="checkbox" name="check"> 
+							<span class="label-text">
+								듬뿍떡사리 추가
+							</span>
+					</label>
+				</div>
+				<div class="form-check">
+					<label>
+						<input type="checkbox" name="check" disabled> 
+							<span class="label-text">
+								듬뿍떡사리 추가
+							</span>
+					</label>
+				</div>				
 			</form>
 
 		</div>
@@ -92,6 +154,9 @@
 			     </span>
 			</div>
 		</div> -->		
+		
+	
+		
 	</div>
 			
 <!-- <div id="w"></div>			
