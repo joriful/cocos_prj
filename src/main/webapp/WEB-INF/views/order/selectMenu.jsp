@@ -50,30 +50,28 @@
 				기본
 			</span>
 			<div class="dropdown" style="margin-bottom:10px; ">
-			  <!-- <div style=""> -->
-				  <button class="btn btn-warning dropdown-toggle" style="font-weight:bold;" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-				    <span style="font-weight:bold; ">소 (600g)</span>
-				    <fmt:formatNumber value="25000" type="Number" pattern="##,###"/>원
+				  <button class="btn btn-warning dropdown-toggle btn-lg" style="font-weight:bold;" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    <span style="font-weight:bold; ">소 : 600g
+				    <fmt:formatNumber value="25000" type="Number" pattern="##,###"/>원</span>
 				    <span class="caret"></span>
 				  </button>
-			  <!-- </div> -->
 			  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
 			    <li>
-				    <a href="#" data-value="another action">
-				    	<span style="font-weight:bold;">소 (600g)</span>
-				    	<fmt:formatNumber value="25000" type="Number" pattern="##,###"/>원
+				    <a data-value="another action">
+				    	<span class="csrfinger" >소 : 600g 
+				    	<fmt:formatNumber value="25000" type="Number" pattern="##,###"/>원</span>
 				    </a>
 			    </li>
 			    <li>
-			    	<a href="#" data-value="something else here">
-			  			<span style="font-weight:bold;">중 (900g)</span>
-				    	<fmt:formatNumber value="35000" type="Number" pattern="##,###"/>원
+			    	<a data-value="something else here">
+			  			<span class="csrfinger" >중 : 900g
+			  			<fmt:formatNumber value="35000" type="Number" pattern="##,###"/>원</span>
 			    	</a>
 			    </li>
 			    <li>
-				    <a href="#" data-value="separated link">
-						<span style="font-weight:bold;">대 (1200g)</span>
-				    	<fmt:formatNumber value="45000" type="Number" pattern="##,###"/>원
+				    <a data-value="separated link">
+						<span class="csrfinger" >대 : 1200g
+						<fmt:formatNumber value="45000" type="Number" pattern="##,###"/>원</span>
 				    </a>
 			    </li>
 			  </ul>
@@ -97,13 +95,28 @@
 						<input type="radio" name="radio"> <span class="label-text">환상적인맛</span>
 					</label>
 				</div>
-				<div class="form-check" style="border-bottom:solid #AAAAAA 1px; padding-bottom: 10px;">
+				<div class="form-check" style="border-bottom:solid #AAAAAA 1px; padding-bottom: 10px; margin-bottom: 10px;">
 					<label>
 						<input type="radio" name="radio"> <span class="label-text">놀라운맛</span>
 					</label>
 				</div>
 				
-				<!-- 맛옵션 -->
+				<!-- 추가 옵션1 -->
+				<span style="font-size:20px; font-weight:bold; padding-bottom:10px;">
+					닭갈비 추가선택
+				</span>
+				<div class="form-check" style="border-bottom:solid #AAAAAA 1px; padding-bottom: 10px; margin-bottom: 10px;">
+					<label>
+						<input type="checkbox" name="check"> 
+							<span class="label-text">
+								치즈닭갈비로 변경
+								<fmt:formatNumber value="2000" type="Number" pattern="##,###"/>원
+							</span>
+					</label>
+				</div>
+				
+				
+				<!-- 추가 옵션2 -->
 				<span style="font-size:20px; font-weight:bold; padding-bottom:10px;">
 					닭갈비 추가선택
 				</span>
@@ -115,12 +128,13 @@
 								<fmt:formatNumber value="2000" type="Number" pattern="##,###"/>원
 							</span>
 					</label>
-				</div>
+				</div>				
 				<div class="form-check">
 					<label>
 						<input type="checkbox" name="check"> 
 							<span class="label-text">
-								듬뿍떡사리 추가
+								황금고구마사리 추가
+								<fmt:formatNumber value="2000" type="Number" pattern="##,###"/>원
 							</span>
 					</label>
 				</div>
@@ -128,7 +142,8 @@
 					<label>
 						<input type="checkbox" name="check"> 
 							<span class="label-text">
-								듬뿍떡사리 추가
+								모듬사리(떡, 고구마, 우동) 추가
+								<fmt:formatNumber value="2000" type="Number" pattern="##,###"/>원
 							</span>
 					</label>
 				</div>
@@ -136,7 +151,8 @@
 					<label>
 						<input type="checkbox" name="check" disabled> 
 							<span class="label-text">
-								듬뿍떡사리 추가
+								모듬해물 (품절)
+								<fmt:formatNumber value="2000" type="Number" pattern="##,###"/>원
 							</span>
 					</label>
 				</div>				
@@ -154,9 +170,7 @@
 			     </span>
 			</div>
 		</div> -->		
-		
-	
-		
+				
 	</div>
 			
 <!-- <div id="w"></div>			

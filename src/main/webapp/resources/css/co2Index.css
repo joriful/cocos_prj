@@ -346,4 +346,15 @@
 		100%{transform: scale(1);}
 	}
 	
+	/* 메뉴선택 가격 커서핑거 */
+	span.csrfinger {
+		font-weight:bold; 
+		font-size:18px;
+	 	cursor: pointer; 
+	 }
+	
+	
+	
+	
+	
 /* all menu slider */	
