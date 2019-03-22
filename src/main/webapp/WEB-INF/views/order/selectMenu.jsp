@@ -24,15 +24,16 @@
 <div >
 		
 		<!-- 중단1 리뷰 영역-->
-	<div class="container" style=""  >
-		<div class="col-lg-7 col-md-7 col-sm-12 col-md-7" style=" padding: 5% 0 5% 0;">
-			<img class="img-responsive" src="${pageContext.request.contextPath }/resources/cocosImg/menuImg/docgalbi1.jpg">
+	<div class="container" style="padding: 10px 0 10px 0;">
+		<div class="col-lg-6 col-md-6 col-sm-12 col-md-6" style=" /* padding: 5% 0 5% 0; */ padding:0 20px 0 20px;">
+			<img class="img-responsive" src="${pageContext.request.contextPath }/resources/cocosImg/menuImg/docgalbi3.jpg"
+			style="/* padding:0 20px 0 20px; */ max-height:600px; margin-left: auto; margin-right: auto; display: block;">
 			
-			<div style="font-size:18px; font-weight:bold; font-color:#808080; padding:20px; text-align:left;">
+			<div style="font-size:18px; font-weight:bold; font-color:#808080; text-align:left; margin:10px 0 10px 0;">
 			     <!-- <span style="font-weight:bold; color:#FF8C00; font-family:BatangChe; font-size: 16px; ">환영합니다!</span><br> -->
-				<p class="media-heading" style="font-size:25px; /* font-weight:bold; */ color:#FF8C00;">
-					<fmt:formatNumber value="25000" type="Number" pattern="##,###"/>원
-				</p>		
+ 				<p class="media-heading" style="font-size:25px; /* font-weight:bold; */ color:#FF8C00;">
+					OO 닭갈비
+				</p>	
 			     <span style="font-weight:bold; color:#777777; font-family:BatangChe; font-size: 16px; ">
 			     	이메뉴는 천연 특제소스로 코코스만의 특별한 맛이 일품인 닭갈비 입니다. 한번 드시고 5년동안 이것만 주문주신 손님이 있을정도 입니다.
 			     	아브라 카타브라 텍스트 35자 <br><br>글자수 테스트 메뉴설명
@@ -42,7 +43,8 @@
 		</div>
 		
 		<!-- 메뉴옵션 -->
-		<div class="col-lg-5 col-md-5 col-sm-12 col-md-5" style="padding: 5% 0 5% 0;">
+		<div class="col-lg-5 col-md-5 col-sm-12 col-md-5" style="/* padding: 5% 0 5% 0; */ 
+		padding:0 20px 0 20px;">
 			<form>
 			
 				<!-- 가격셀렉트  -->
@@ -155,47 +157,133 @@
 								<fmt:formatNumber value="2000" type="Number" pattern="##,###"/>원
 							</span>
 					</label>
+				</div>
+				
+				<!-- +1 -->
+			 <div style="display:flex; /* justify-content: center; */ align-items: center;">  
+			   	<div style="float:left; ">
+				  <span style="">
+				  	수량
+				  </span>
+			    </div>
+			    <div class="input-group" style="float:right;">
+			          <span class="input-group-btn">
+			              <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[2]">
+			                <span class="glyphicon glyphicon-minus"></span>
+			              </button>
+			          </span>
+			          <input type="text" name="quant[2]" class="form-control input-number" value="1" min="1" max="10">
+			          <span class="input-group-btn">
+			              <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[2]">
+			                  <span class="glyphicon glyphicon-plus"></span>
+			              </button>
+			          </span>
+			      </div>
+			</div>	
+				
+				
+				<!-- 가격 total-->
+				<div>
+					<button class="btn btn-warning dropdown-toggle btn-lg" style="font-weight:bold;" 
+						type="button" aria-haspopup="true" aria-expanded="true">
+						<p class="media-heading" style="font-size:25px; /* font-weight:bold; */ /* color:#FF8C00; */">
+							<fmt:formatNumber value="25000" type="Number" pattern="##,###"/>원
+						</p>	
+					</button>
 				</div>				
 			</form>
 
 		</div>
-		<!-- 메뉴옵션 -->
-		
-		<!-- <div class="col-lg-5 col-md-5 col-sm-12 col-md-5" style="padding: 5% 0 0 0;">
-			<div style="font-size:18px; font-weight:bold; font-color:#808080; padding:20px; text-align:left;">
-			     <span style="font-weight:bold; color:#FF8C00; font-family:BatangChe; font-size: 45px; ">환영합니다!</span><br>		
-			     <span style="font-weight:bold; color:#777777; font-family:BatangChe; font-size: 16px; ">
-			     	코코스는 옛날 옛적 호랑이가 담배피던 시절 3대째 내려오는 조선시대에도 맛집이었고 지금도 맛집입니다. <br><br>글자수는 대략 100자정도 쓰면 적당할듯
-			     	
-			     </span>
-			</div>
-		</div> -->		
 				
 	</div>
 			
-<!-- <div id="w"></div>			
+
 		
-</div> -->
+</div>
 
 </body>
 
 	<script type="text/javascript">
-		
+	
+	/* top 사이즈 */
 	$(window).on('load resize', function () {
 		var th = $('#topMenuHsize').height();
 		$('#mSlctBodySize').css({ marginBottom : th + 'px' });
 		
 	});
 	
-	
-	/* $(window).resize(function() {
-		  // This will execute whenever the window is resized
-		  var h = $(window).height(); // New height
-		  var w = $(window).width(); // New width
-		  $("#w").html("<p>Width: "+w+"<br>Height: "+h+"</p>");
-		  
-		}); */
-	
+	/* 수량조절 */
+	$('.btn-number').click(function(e){
+	    e.preventDefault();
+	    
+	    fieldName = $(this).attr('data-field');
+	    type      = $(this).attr('data-type');
+	    var input = $("input[name='"+fieldName+"']");
+	    var currentVal = parseInt(input.val());
+	    if (!isNaN(currentVal)) {
+	        if(type == 'minus') {
+	            
+	            if(currentVal > input.attr('min')) {
+	                input.val(currentVal - 1).change();
+	            } 
+	            if(parseInt(input.val()) == input.attr('min')) {
+	                $(this).attr('disabled', true);
+	            }
+
+	        } else if(type == 'plus') {
+
+	            if(currentVal < input.attr('max')) {
+	                input.val(currentVal + 1).change();
+	            }
+	            if(parseInt(input.val()) == input.attr('max')) {
+	                $(this).attr('disabled', true);
+	            }
+
+	        }
+	    } else {
+	        input.val(0);
+	    }
+	});
+	$('.input-number').focusin(function(){
+	   $(this).data('oldValue', $(this).val());
+	});
+	$('.input-number').change(function() {
+	    
+	    minValue =  parseInt($(this).attr('min'));
+	    maxValue =  parseInt($(this).attr('max'));
+	    valueCurrent = parseInt($(this).val());
+	    
+	    name = $(this).attr('name');
+	    if(valueCurrent >= minValue) {
+	        $(".btn-number[data-type='minus'][data-field='"+name+"']").removeAttr('disabled')
+	    } else {
+	        alert('죄송합니다., 최소값을 넘었습니다.');
+	        $(this).val($(this).data('oldValue'));
+	    }
+	    if(valueCurrent <= maxValue) {
+	        $(".btn-number[data-type='plus'][data-field='"+name+"']").removeAttr('disabled')
+	    } else {
+	        alert('죄송합니다., 최대값을 넘었습니다.');
+	        $(this).val($(this).data('oldValue'));
+	    }
+	    
+	    
+	});
+	$(".input-number").keydown(function (e) {
+	        // Allow: backspace, delete, tab, escape, enter and .
+	        if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 190]) !== -1 ||
+	             // Allow: Ctrl+A
+	            (e.keyCode == 65 && e.ctrlKey === true) || 
+	             // Allow: home, end, left, right
+	            (e.keyCode >= 35 && e.keyCode <= 39)) {
+	                 // let it happen, don't do anything
+	                 return;
+	        }
+	        // Ensure that it is a number and stop the keypress
+	        if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
+	            e.preventDefault();
+	        }
+	    });	
 	
 	</script>
 
