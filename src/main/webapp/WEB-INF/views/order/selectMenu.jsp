@@ -160,37 +160,39 @@
 				</div>
 				
 				<!-- +1 -->
-			 <div style="display:flex; /* justify-content: center; */ align-items: center;">  
-			   	<div style="float:left; ">
-				  <span style="">
+			 <div style="display:flex; /* justify-content: center; */ align-items: center; padding:10px 0 10px 0; ">  
+
+			   	<div style=" float:left; ">
+				  <span style="font-size:20px; font-weight:bold; margin-right:60px;">
 				  	수량
 				  </span>
 			    </div>
-			    <div class="input-group" style="float:right;">
+			    <div class="input-group" style="/* float:right; */ max-width:150px; ">
 			          <span class="input-group-btn">
 			              <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[2]">
 			                <span class="glyphicon glyphicon-minus"></span>
 			              </button>
 			          </span>
-			          <input type="text" name="quant[2]" class="form-control input-number" value="1" min="1" max="10">
+			          <input type="text" name="quant[2]" class="form-control input-number" value="1" min="1" max="10" >
 			          <span class="input-group-btn">
 			              <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[2]">
 			                  <span class="glyphicon glyphicon-plus"></span>
 			              </button>
 			          </span>
 			      </div>
+
 			</div>	
 				
 				
 				<!-- 가격 total-->
-				<div>
+				<%-- <div>
 					<button class="btn btn-warning dropdown-toggle btn-lg" style="font-weight:bold;" 
 						type="button" aria-haspopup="true" aria-expanded="true">
 						<p class="media-heading" style="font-size:25px; /* font-weight:bold; */ /* color:#FF8C00; */">
 							<fmt:formatNumber value="25000" type="Number" pattern="##,###"/>원
 						</p>	
 					</button>
-				</div>				
+				</div>	 --%>			
 			</form>
 
 		</div>
