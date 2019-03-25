@@ -160,10 +160,11 @@
 				</div>
 				
 				<!-- +1 -->
-			 <div style="display:flex; /* justify-content: center; */ align-items: center; padding:10px 0 10px 0; ">  
+			 <div style="display:flex; /* justify-content: center; */ align-items: center; padding:10px 0 10px 0; 
+			 	border-top:solid #AAAAAA 1px; border-bottom:solid #AAAAAA 1px;">  
 
 			   	<div style=" float:left; ">
-				  <span style="font-size:20px; font-weight:bold; margin-right:60px;">
+				  <span style="font-size:20px; font-weight:bold; margin-right:150px;">
 				  	수량
 				  </span>
 			    </div>
@@ -185,24 +186,40 @@
 				
 				
 				<!-- 가격 total-->
-				<%-- <div>
+				<div style="padding:10px 0 10px 0;">
 					<button class="btn btn-warning dropdown-toggle btn-lg" style="font-weight:bold;" 
 						type="button" aria-haspopup="true" aria-expanded="true">
 						<p class="media-heading" style="font-size:25px; /* font-weight:bold; */ /* color:#FF8C00; */">
 							<fmt:formatNumber value="25000" type="Number" pattern="##,###"/>원
 						</p>	
 					</button>
-				</div>	 --%>			
+				</div>	
+			<!-- 가격토탈 nav -->				
+			<%-- <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+			  <ul class="nav navbar-nav">
+			    <li class="active"><a href="#">Basic Topnav</a></li>
+				    <li>
+					    <a href="#">
+							<fmt:formatNumber value="25000" type="Number" pattern="##,###"/>원
+						</a>
+					</li>
+			  </ul>
+			</nav>	 --%>					
 			</form>
-
 		</div>
-				
-	</div>
-			
-
-		
+	</div>		
 </div>
-
+			<!-- 가격토탈 nav -->				
+			<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197" style="">
+			  <ul class="nav navbar-nav">
+			    <li class="active"><a href="#">Basic Topnav</a></li>
+				    <li>
+					    <a href="#">
+							<fmt:formatNumber value="25000" type="Number" pattern="##,###"/>원
+						</a>
+					</li>
+			  </ul>
+			</nav>
 </body>
 
 	<script type="text/javascript">
