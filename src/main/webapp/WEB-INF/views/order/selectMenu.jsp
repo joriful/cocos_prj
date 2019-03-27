@@ -13,6 +13,15 @@
 <title>메뉴 선택</title>
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/co2Index.css">
 
+  <style>
+  /* Note: Try to remove the following lines to see the effect of CSS positioning */
+  .affix {
+    top: 600px;
+    z-index: 9999 !important;
+  }
+  </style>
+
+
 </head>
 <body>
 
@@ -40,6 +49,45 @@
 			     	
 			     </span>
 			</div>
+			
+			<!-- exe -->
+<div class="container-fluid" style="background-color:#2196F3;color:#fff;height:200px;">
+  <h1>Bootstrap Affix Example</h1>
+  <h3>Fixed (sticky) vertical sidenav on scroll</h3>
+  <p>Scroll this page to see how the left navigation menu behaves with data-spy="affix".</p>
+  <p><strong>The left menu sticks to the page when you have scrolled a specified amount of pixels.</strong></p>
+</div>
+<br>
+
+<div class="container">
+  <div class="row">
+    <nav class="col-sm-3">
+      <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205">
+        <li class="active"><a href="#section1">Section 1</a></li>
+        <li><a href="#section2">Section 2</a></li>
+        <li><a href="#section3">Section 3</a></li>
+      </ul>
+    </nav>
+    <div class="col-sm-9">   
+      <h1>Some text to enable scrolling</h1>
+      <h1>Some text to enable scrolling</h1>
+      <h1>Some text to enable scrolling</h1>
+      <h1>Some text to enable scrolling</h1>
+      <h1>Some text to enable scrolling</h1>
+      <h1>Some text to enable scrolling</h1>
+      <h1>Some text to enable scrolling</h1>
+      <h1>Some text to enable scrolling</h1>
+      <h1>Some text to enable scrolling</h1>
+      <h1>Some text to enable scrolling</h1>
+      <h1>Some text to enable scrolling</h1>
+      <h1>Some text to enable scrolling</h1>
+      <h1>Some text to enable scrolling</h1>
+      <h1>Some text to enable scrolling</h1>
+    </div>
+  </div>
+</div>
+			
+			
 		</div>
 		
 		<!-- 메뉴옵션 -->
@@ -210,16 +258,7 @@
 	</div>		
 </div>
 			<!-- 가격토탈 nav -->				
-			<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197" style="">
-			  <ul class="nav navbar-nav">
-			    <li class="active"><a href="#">Basic Topnav</a></li>
-				    <li>
-					    <a href="#">
-							<fmt:formatNumber value="25000" type="Number" pattern="##,###"/>원
-						</a>
-					</li>
-			  </ul>
-			</nav>
+
 </body>
 
 	<script type="text/javascript">
