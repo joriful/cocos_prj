@@ -16,7 +16,7 @@
   <style>
   /* Note: Try to remove the following lines to see the effect of CSS positioning */
   .affix {
-    top: 600px;
+    top: 500px;
     z-index: 9999 !important;
   }
   </style>
@@ -51,42 +51,15 @@
 			</div>
 			
 			<!-- exe -->
-<div class="container-fluid" style="background-color:#2196F3;color:#fff;height:200px;">
-  <h1>Bootstrap Affix Example</h1>
-  <h3>Fixed (sticky) vertical sidenav on scroll</h3>
-  <p>Scroll this page to see how the left navigation menu behaves with data-spy="affix".</p>
-  <p><strong>The left menu sticks to the page when you have scrolled a specified amount of pixels.</strong></p>
-</div>
-<br>
-
-<div class="container">
+<!-- <div class="container">
   <div class="row">
     <nav class="col-sm-3">
       <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205">
         <li class="active"><a href="#section1">Section 1</a></li>
-        <li><a href="#section2">Section 2</a></li>
-        <li><a href="#section3">Section 3</a></li>
       </ul>
     </nav>
-    <div class="col-sm-9">   
-      <h1>Some text to enable scrolling</h1>
-      <h1>Some text to enable scrolling</h1>
-      <h1>Some text to enable scrolling</h1>
-      <h1>Some text to enable scrolling</h1>
-      <h1>Some text to enable scrolling</h1>
-      <h1>Some text to enable scrolling</h1>
-      <h1>Some text to enable scrolling</h1>
-      <h1>Some text to enable scrolling</h1>
-      <h1>Some text to enable scrolling</h1>
-      <h1>Some text to enable scrolling</h1>
-      <h1>Some text to enable scrolling</h1>
-      <h1>Some text to enable scrolling</h1>
-      <h1>Some text to enable scrolling</h1>
-      <h1>Some text to enable scrolling</h1>
-    </div>
   </div>
-</div>
-			
+</div> -->
 			
 		</div>
 		
@@ -233,15 +206,17 @@
 			</div>	
 				
 				
-				<!-- 가격 total-->
-				<div style="padding:10px 0 10px 0;">
+				<!-- 가격 total 원본-->
+				<%-- <div style="padding:10px 0 10px 0;">
 					<button class="btn btn-warning dropdown-toggle btn-lg" style="font-weight:bold;" 
 						type="button" aria-haspopup="true" aria-expanded="true">
 						<p class="media-heading" style="font-size:25px; /* font-weight:bold; */ /* color:#FF8C00; */">
 							<fmt:formatNumber value="25000" type="Number" pattern="##,###"/>원
 						</p>	
 					</button>
-				</div>	
+				</div>	 --%>
+				
+				
 			<!-- 가격토탈 nav -->				
 			<%-- <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
 			  <ul class="nav navbar-nav">
@@ -252,12 +227,27 @@
 						</a>
 					</li>
 			  </ul>
-			</nav>	 --%>					
+			</nav>	 --%>	
+							
 			</form>
 		</div>
-	</div>		
-</div>
-			<!-- 가격토탈 nav -->				
+	</div>
+	
+				
+				<!-- price total fix -->
+				
+				<!-- <div class="container"> -->
+				  <div class="row" style="padding:10px 0 10px 0;">
+				    <nav class="col-lg-12">
+				      <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205">
+				        <li class="active"><a href="#section1">Section 1</a></li>
+				      </ul>
+				    </nav>
+				  </div>
+				<!-- </div>  -->
+			
+</div><!-- outline -->
+						
 
 </body>
 
