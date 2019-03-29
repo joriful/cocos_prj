@@ -48,8 +48,8 @@
 					 	</div>
 					</form>
 				</c:when>
-				<c:otherwise>
-					<div class="navbar-collapse collapse" id="navbar-main">
+				<c:otherwise><!-- login -->
+					<%-- <div class="navbar-collapse collapse" id="navbar-main">
 						<form class="navbar-form navbar-right" role="search" action="<%=request.getContextPath()%>/login/loginChk" method="post">
 							<div class="form-group">
 								<input type="text" class="form-control" name="id" placeholder="이름">
@@ -59,7 +59,7 @@
 							</div>
 							<input type="submit" class="btn btn-default" value="로그인">
 						</form>
-					</div>
+					</div> --%>
 				</c:otherwise>
 			</c:choose>
 		</div>

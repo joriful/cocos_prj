@@ -18,6 +18,7 @@
   .affix {
     top: 500px;
     z-index: 9999 !important;
+    position: fixed;
   }
   </style>
 
@@ -40,6 +41,9 @@
 			
 			<div style="font-size:18px; font-weight:bold; font-color:#808080; text-align:left; margin:10px 0 10px 0;">
 			     <!-- <span style="font-weight:bold; color:#FF8C00; font-family:BatangChe; font-size: 16px; ">환영합니다!</span><br> -->
+			     <!-- 205px -->
+			     <div style="width:205px; border:solid red 1px;">
+			     </div>
  				<p class="media-heading" style="font-size:25px; /* font-weight:bold; */ color:#FF8C00;">
 					OO 닭갈비
 				</p>	
@@ -49,6 +53,7 @@
 			     	
 			     </span>
 			</div>
+
 			
 			<!-- exe -->
 <!-- <div class="container">
@@ -237,14 +242,26 @@
 				<!-- price total fix -->
 				
 				<!-- <div class="container"> -->
-				  <div class="row" style="padding:10px 0 10px 0;">
-				    <nav class="col-lg-12">
-				      <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205">
-				        <li class="active"><a href="#section1">Section 1</a></li>
+				  <!-- <div class="row" style="padding:10px 0 10px 0;"> -->
+				    <!-- <nav class="col-lg-12" > -->
+				    <nav class="navbar navbar-light bg-light" data-spy="affix" style="background:#02e800;">
+				      <ul class="nav nav-pills nav-stacked"  >
+				        <li class="active"><a href="#section1" style="border-radius:0;">Section 1</a></li>
 				      </ul>
 				    </nav>
-				  </div>
+				  <!-- </div> -->
 				<!-- </div>  -->
+				
+				
+				<!-- As a link -->
+				<nav class="navbar navbar-light bg-light"  style="background:#02e800;">
+				  <a class="navbar-brand" href="#">Navbar</a>
+				</nav>
+				
+				<!-- As a heading -->
+				<nav class="navbar navbar-light bg-light" >
+				  <span class="navbar-brand mb-0 h1">Navbar</span>
+				</nav>
 			
 </div><!-- outline -->
 						
@@ -252,6 +269,13 @@
 </body>
 
 	<script type="text/javascript">
+	
+	/* 윈도우사이즈 */
+	$(window).resize(function(){
+		var heightw = $(window).height();
+		$('#wdhi').text("heightW:"+ heightw);
+	});
+	
 	
 	/* top 사이즈 */
 	$(window).on('load resize', function () {
