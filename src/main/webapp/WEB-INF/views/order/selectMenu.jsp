@@ -254,9 +254,9 @@
 				
 				
 				<!-- As a link -->
-				<nav class="navbar navbar-light bg-light"  style="background:#02e800;">
+				<!-- <nav class="navbar navbar-light bg-light"  style="background:#02e800;">
 				  <a class="navbar-brand" href="#">Navbar</a>
-				</nav>
+				</nav> -->
 				
 				<!-- As a heading -->
 				<nav class="navbar navbar-light bg-light" >
