@@ -14,12 +14,16 @@
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/co2Index.css">
 
   <style>
-  /* Note: Try to remove the following lines to see the effect of CSS positioning */
-  .affix {
-    top: 500px;
-    z-index: 9999 !important;
-    position: fixed;
-  }
+
+.anavbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+  
   </style>
 
 
@@ -34,7 +38,7 @@
 <div >
 		
 		<!-- 중단1 리뷰 영역-->
-	<div class="container" style="padding: 10px 0 10px 0;">
+	<div class="container" style="padding: 10px 0 10px 0; margin-bottom:100px;">
 		<div class="col-lg-6 col-md-6 col-sm-12 col-md-6" style=" /* padding: 5% 0 5% 0; */ padding:0 20px 0 20px;">
 			<img class="img-responsive" src="${pageContext.request.contextPath }/resources/cocosImg/menuImg/docgalbi3.jpg"
 			style="/* padding:0 20px 0 20px; */ max-height:600px; margin-left: auto; margin-right: auto; display: block;">
@@ -53,18 +57,6 @@
 			     	
 			     </span>
 			</div>
-
-			
-			<!-- exe -->
-<!-- <div class="container">
-  <div class="row">
-    <nav class="col-sm-3">
-      <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205">
-        <li class="active"><a href="#section1">Section 1</a></li>
-      </ul>
-    </nav>
-  </div>
-</div> -->
 			
 		</div>
 		
@@ -209,59 +201,22 @@
 			      </div>
 
 			</div>	
-				
-				
-				<!-- 가격 total 원본-->
-				<%-- <div style="padding:10px 0 10px 0;">
-					<button class="btn btn-warning dropdown-toggle btn-lg" style="font-weight:bold;" 
-						type="button" aria-haspopup="true" aria-expanded="true">
-						<p class="media-heading" style="font-size:25px; /* font-weight:bold; */ /* color:#FF8C00; */">
-							<fmt:formatNumber value="25000" type="Number" pattern="##,###"/>원
-						</p>	
-					</button>
-				</div>	 --%>
-				
-				
-			<!-- 가격토탈 nav -->				
-			<%-- <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
-			  <ul class="nav navbar-nav">
-			    <li class="active"><a href="#">Basic Topnav</a></li>
-				    <li>
-					    <a href="#">
-							<fmt:formatNumber value="25000" type="Number" pattern="##,###"/>원
-						</a>
-					</li>
-			  </ul>
-			</nav>	 --%>	
-							
+											
 			</form>
 		</div>
 	</div>
-	
-				
-				<!-- price total fix -->
-				
-				<!-- <div class="container"> -->
-				  <!-- <div class="row" style="padding:10px 0 10px 0;"> -->
-				    <!-- <nav class="col-lg-12" > -->
-				    <nav class="navbar navbar-light bg-light" data-spy="affix" style="background:#02e800;">
-				      <ul class="nav nav-pills nav-stacked"  >
-				        <li class="active"><a href="#section1" style="border-radius:0;">Section 1</a></li>
-				      </ul>
-				    </nav>
-				  <!-- </div> -->
-				<!-- </div>  -->
-				
-				
-				<!-- As a link -->
-				<!-- <nav class="navbar navbar-light bg-light"  style="background:#02e800;">
-				  <a class="navbar-brand" href="#">Navbar</a>
-				</nav> -->
-				
-				<!-- As a heading -->
-				<nav class="navbar navbar-light bg-light" >
-				  <span class="navbar-brand mb-0 h1">Navbar</span>
-				</nav>
+			
+		<!-- price total fix -->
+		
+		<form>	
+			<div class="anavbar">
+			  <a type="button" class="btn btn-warning dropdown-toggle btn-lg" href="#home" style="margin:10px;">Home</a>
+			  <a href="#news">News</a>
+			  <a href="#contact">Contact</a>
+			</div>
+		</form>
+			
+			
 			
 </div><!-- outline -->
 						
