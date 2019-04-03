@@ -39,30 +39,24 @@
 		
 		<!-- 중단1 리뷰 영역-->
 	<div class="container" style="padding: 10px 0 10px 0; margin-bottom:100px;">
-		<div class="col-lg-6 col-md-6 col-sm-12 col-md-6" style=" /* padding: 5% 0 5% 0; */ padding:0 20px 0 20px;">
+		<div class="col-lg-6 col-md-6 col-sm-12 col-md-6" style=" padding:0 20px 0 20px;">
 			<img class="img-responsive" src="${pageContext.request.contextPath }/resources/cocosImg/menuImg/docgalbi3.jpg"
-			style="/* padding:0 20px 0 20px; */ max-height:600px; margin-left: auto; margin-right: auto; display: block;">
+			style=" max-height:600px; margin-left: auto; margin-right: auto; display: block;">
 			
 			<div style="font-size:18px; font-weight:bold; font-color:#808080; text-align:left; margin:10px 0 10px 0;">
-			     <!-- <span style="font-weight:bold; color:#FF8C00; font-family:BatangChe; font-size: 16px; ">환영합니다!</span><br> -->
-			     <!-- 205px -->
-			     <div style="width:205px; border:solid red 1px;">
-			     </div>
- 				<p class="media-heading" style="font-size:25px; /* font-weight:bold; */ color:#FF8C00;">
+ 				<p class="media-heading" style="font-size:25px; color:#FF8C00;">
 					OO 닭갈비
 				</p>	
 			     <span style="font-weight:bold; color:#777777; font-family:BatangChe; font-size: 16px; ">
 			     	이메뉴는 천연 특제소스로 코코스만의 특별한 맛이 일품인 닭갈비 입니다. 한번 드시고 5년동안 이것만 주문주신 손님이 있을정도 입니다.
 			     	아브라 카타브라 텍스트 35자 <br><br>글자수 테스트 메뉴설명
-			     	
 			     </span>
 			</div>
 			
 		</div>
 		
 		<!-- 메뉴옵션 -->
-		<div class="col-lg-5 col-md-5 col-sm-12 col-md-5" style="/* padding: 5% 0 5% 0; */ 
-		padding:0 20px 0 20px;">
+		<div class="col-lg-5 col-md-5 col-sm-12 col-md-5" style="padding:0 20px 0 20px;">
 			<form>
 			
 				<!-- 가격셀렉트  -->
@@ -186,7 +180,7 @@
 				  	수량
 				  </span>
 			    </div>
-			    <div class="input-group" style="/* float:right; */ max-width:150px; ">
+			    <div class="input-group" style=" max-width:150px; ">
 			          <span class="input-group-btn">
 			              <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[2]">
 			                <span class="glyphicon glyphicon-minus"></span>
@@ -210,9 +204,15 @@
 		
 		<form>	
 			<div class="anavbar">
-			  <a type="button" class="btn btn-warning dropdown-toggle btn-lg" href="#home" style="margin:10px;">Home</a>
-			  <a href="#news">News</a>
-			  <a href="#contact">Contact</a>
+			  <div class="container" style="text-align:center; ">
+			  <span id="totprice" style="color:#FF8C00; font-size:20px; font-weight:bold;">
+			  	<fmt:formatNumber value="25000" type="Number" pattern="##,###"/>원
+			  </span>
+			  <a type="button" class="btn btn-warning dropdown-toggle" href="#1개 담기" style="margin:10px; font-size:20px;">
+				<span>1</span>	
+				<span>개 담기</span>	
+			  </a>
+			  </div>
 			</div>
 		</form>
 			
